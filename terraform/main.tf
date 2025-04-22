@@ -56,4 +56,5 @@ module "machines" {
   ubuntu_template          = module.templates.ubuntu_template
   ssh_private_key_path     = var.ssh_private_key_path
   ansible_host_private_key = module.tls.ansible_host_private_key
+  git_repo_url             = var.git_repo_url
 }
